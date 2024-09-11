@@ -1,0 +1,31 @@
+/* components/UserDetails.css */
+.user-details {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+.userdetails-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: orange;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.user-card {
+  flex: 1 1 calc(33.333% - 1rem);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}

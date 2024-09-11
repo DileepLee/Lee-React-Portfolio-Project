@@ -1,0 +1,35 @@
+/* components/Footer.css */
+footer {
+  background-color: #251437; /* Primary color */
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 20;
+  color: aliceblue;
+}
+
+footer .social-media {
+  margin-top: 3rem;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+footer .social-media a:hover {
+  color:deepskyblue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,17 @@
+/* src/App.css */
+body {
+  font-family: 'Roboto', sans-serif; /* or any other professional font */
+  margin: 0;
+  padding: 0;
+  background-color: #071721; /* Light background color for a clean look */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+button {
+  cursor: pointer;
+}

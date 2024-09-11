@@ -1,0 +1,49 @@
+/* components/Navbar.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8871ec; /* Primary color */
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color:aliceblue;
+  font-family: cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  font-weight: 600;
+  font-family: sans-serif;
+
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #34fd4c;
+  border-radius: 10px;
+  color: rgb(206, 53, 11);
+  font-weight: 700;
+  transition: border 0.1s, transform 0.3s;
+  font-family: sans-serif;
+  font-weight: 600;
+}
